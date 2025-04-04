@@ -1,0 +1,332 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+/* ,.contact-us div************* */
+.link{
+    padding: 30px 10%;
+
+}
+.services,.fresh-fruits,.footer, .testimonial{
+    padding: 60px  10% 0px 10%;
+}
+/* .home{
+    padding: 50px 10%;
+} */
+.link,.home{
+    background-color: #eee;
+}
+
+#list-link{
+    margin-left: 65px;
+}
+
+.link h3,.link ul,.link ul li,.link img,.home-first,.home-second{
+    display: inline-block;
+}
+.link h3{
+    width: 30%;
+    text-transform: uppercase;
+}
+.link img{
+    width: 35px;
+    margin-top: 2px;
+}
+.link ul{
+    width: 60%;
+    list-style: none;
+}
+.link ul li{
+margin-left: 9%;
+
+}
+#search{
+    width: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* home */
+.home{
+    padding: 140px 10%;
+}
+.home-first{
+    width: 40%;
+    margin-right: 15%;
+}
+
+h1{
+    font-size: 45px;
+}
+.home-first p{
+    font-size: 18px;
+    padding: 25px 0px;
+}
+
+.home-first button{
+    font-size: 19px;
+    padding: 15px;
+    margin-top: 9px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.shop{
+    background-color: orange;
+    margin-right: 10px;
+}
+.contact{
+    background-color: black;
+}
+.home-first{
+    margin-right: 19%;
+}
+.home-second{
+    width: 40%;
+
+
+}
+
+.home-second img{
+    width: 370px;
+}
+
+/* //services */
+.services{
+    text-align: center;
+}
+.services h2{
+    /* margin: 35px 0px 10px;**************** */
+    margin-bottom: 10px;
+}
+.services p{
+    margin-bottom: 35px;
+}
+.services div{
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    border: 3px solid rgba(217, 182, 182, 0);
+    margin: 10px;
+    box-shadow: 0px 0px 8px 0px #cec7c7;
+    
+
+}
+
+.services div:hover{
+    border-top: 3px solid orange;
+}
+.services img{
+    width: 40px;
+    margin:  15px;
+
+}
+
+.services h3{
+    color: orange;
+    margin: 10px;
+}
+
+.services button,.fresh-fruits button{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin: 20px 0px 0px;
+    
+}
+
+.services button:hover,.fresh-fruits button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.fresh-fruits{
+    text-align: center;
+}
+
+/* fresh-fruits */
+/* .fresh-fruits p */
+.fresh-fruits h2{
+    margin-bottom: 10px;
+}
+.fresh-fruits h3,.fresh p{
+    margin-bottom: 20px;
+}
+/* .fresh-fruits p{
+    margin-bottom: 70px;
+} */
+
+.fresh-fruits p{
+    padding-right: 50px;
+}
+/* .fresh-fruits button{
+
+} */
+.fresh-fruits div {
+    text-align: left;
+}
+.fresh-fruits div div{
+    display: inline-block;
+}
+
+.fresh{
+    width: 60%;
+    margin: 90px 90px 0px 0px;
+}
+.or{
+    width: 30%;
+}
+
+
+#img{
+    width: 200px;
+}
+#img.img{
+    width: 90px;
+}
+
+/* very-tasty-fruits */
+.very-tasty-fruits{
+    background-image: url(./OneDrive_1_3-27-2025/tasty.png);
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+.very-tasty-fruits h2{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.foot,.very-tasty-fruits{
+    margin-top: 60px ;
+}
+/* testimonial */
+.testimonial{
+    text-align: center;
+}
+.testimonial h2{
+    /* margin: 60px 0px 10px;******************** */
+}
+.testimonial p{
+    margin-bottom:40px ;
+}
+.testimonial img{
+    width: 300px;
+}
+.testimonial h3{
+    margin: 10px 0px 30px;
+}
+.testimonial pre{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bolder;
+}
+/* contact-us */
+.contact-us form input{
+    display: block;
+}
+.contact-us div,.contact-us img{
+    display: inline-block;
+}
+.contact-us{
+    padding: 60px 0px  40px 10%;
+    /* margin-top: 60px; *********************/
+}
+.contact-us h2{
+    /* margin: 90px 0px 40px; */
+    margin-bottom: 30px;
+}
+.contact-us input{
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+
+}
+
+.contact-us input:focus{
+    outline: none;
+}
+
+.contact-us button{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact-us .message{
+    margin-top: 50px;
+}
+.contact-us div{
+    width: 79%;
+    margin-right: 6.6%;
+}
+.contact-us img{
+    width: 14%;
+}
+
+/* footer */
+.footer div{
+    display: inline-block;
+}
+.footer ul{
+    list-style: none;
+    line-height:25px;
+}
+
+.footer h3{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.footer div{
+    width: 20%;
+    margin-right: 4%;
+}
+.footer{
+    /* margin-top:100px ; */
+}
+.footer img{
+    width: 40px;
+    /* margin-top: ; */
+    margin-bottom:20px ;
+    margin-right: 7px;
+}
+.footer input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.footer .footer-follow button{
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* foot */
+
+.foot{
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+}
